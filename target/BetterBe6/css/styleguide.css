@@ -1,0 +1,44 @@
+:root {
+    --amaranth: #e53451;
+    --desert-storm: #f8f8fa;
+    --port-gore: #29235c;
+    --white: #ffffff;
+
+    --font-size-l: 16px;
+    --font-size-m: 14px;
+    --font-size-xl: 18px;
+    --font-size-xxl: 22px;
+    --font-size-xxxl: 28px;
+
+    --font-family-helveticaneue-bold: "HelveticaNeue-Bold", Helvetica;
+    --font-family-helveticaneue-medium: "HelveticaNeue-Medium", Helvetica;
+}
+.helveticaneue-normal-port-gore-14px {
+    color: var(--port-gore);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-m);
+}
+
+.helveticaneue-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-xl);
+}
+
+.helveticaneue-normal-amaranth-28px {
+    color: var(--amaranth);
+    font-family: var(--font-family-helveticaneue-bold);
+    font-size: var(--font-size-xxxl);
+}
+
+.helveticaneue-normal-amaranth-14px {
+    color: var(--amaranth);
+    font-family: var(--font-family-helveticaneue-bold);
+    font-size: var(--font-size-m);
+}
+
+.helveticaneue-normal-port-gore-22px {
+    color: var(--port-gore);
+    font-family: var(--font-family-helveticaneue-bold);
+    font-size: var(--font-size-xxl);
+}

@@ -1,0 +1,259 @@
+body {
+    background-color: white;
+    color: #000000;
+
+}
+
+#container
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    position: relative;
+    padding: 10px;
+    margin: 30px;
+    background-color: white;
+    display: flex;
+}
+
+
+.login
+{
+    position: relative;
+    float: left;
+    width: 20%;
+}
+
+.login img
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.logo
+{
+    float: left;
+    position: relative;
+    width: 60%;
+    text-align: center;
+}
+
+.logo img
+{
+    width: 170px;
+    height: 30px;
+}
+
+.cart {
+    position: relative;
+    float: left;
+    width: 20%;
+
+}
+.cart img
+{
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+#search_box
+{
+    position: relative;
+    width: 60%;
+    height: 60px;
+    border-radius: 25px;
+    background-color: #F9F9FC;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+ol a
+{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+#search_button
+{
+    background-color: #F9F9FC;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border-radius:0px 25px 25px 0px;
+    float: left;
+    border: none;
+
+}
+#search_button:hover
+{
+    background-color: #E3E3EB;
+    cursor: pointer;
+
+}
+#search_button img
+{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+ol > li:first-child
+{
+    border-radius: 25px 0px 0px 25px;
+}
+ol > li:last-child
+{
+    border-radius: 0px 25px 25px 0px;
+}
+
+ol > li
+{
+    position: relative;
+    float: left;
+    width: 16.666%;
+    height: 100%;
+
+}
+ol > li:hover
+{
+    background-color: #E3E3EB;
+    display: block;
+}
+ol > li > a img
+{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+ol > li > form
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: black;
+    border-radius: 10px;
+    display: none;
+    border: 1px solid #D8D8D8;
+
+}
+
+
+ol > li:hover > form
+{
+    display: inline-block;
+}
+
+
+ol > li > form > label
+{
+    display: inline-block;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 100;
+    border-top: 1px solid #D8D8D8;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+#car_box
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1190px;
+    margin-top: 118px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.car
+{
+    height: 354px;
+    width: 275px;
+    min-width: 232px;
+    background-color: #F8F8FA;
+    border-radius: 40px;
+}
+
+.car-image
+{
+    height: 155px;
+    width: 275px;
+}
+
+.car_title
+{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 27px;
+    width: 227px;
+}
+
+.car_price
+{
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+    width: 227px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.car_options_display
+{
+    margin-top: 10px;
+    height: 57px;
+    width: 243px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.car_option_display_in
+{
+    position: relative;
+    float: left;
+    height: 41px;
+    width: 33.33%;
+    text-align: center;
+}
+.car_option_display_in_img
+{
+    height: 24px;
+    width: 24px;
+}
